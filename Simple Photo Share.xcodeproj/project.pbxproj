@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA8E83E718A21CAC00FB798C /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8E83E618A21CAC00FB798C /* libicucore.dylib */; };
+		EA8E83E918A21CB100FB798C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8E83E818A21CB100FB798C /* libz.dylib */; };
+		EA8E83EB18A21CB600FB798C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8E83EA18A21CB600FB798C /* MobileCoreServices.framework */; };
+		EAD033DB18A21B8100E19658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD033DA18A21B8100E19658 /* Foundation.framework */; };
+		EAD033DD18A21B8100E19658 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD033DC18A21B8100E19658 /* CoreGraphics.framework */; };
+		EAD033DF18A21B8100E19658 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD033DE18A21B8100E19658 /* UIKit.framework */; };
+		EAD033E518A21B8100E19658 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAD033E318A21B8100E19658 /* InfoPlist.strings */; };
+		EAD033E718A21B8100E19658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD033E618A21B8100E19658 /* main.m */; };
+		EAD033EB18A21B8100E19658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD033EA18A21B8100E19658 /* AppDelegate.m */; };
+		EAD033EE18A21B8100E19658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD033EC18A21B8100E19658 /* Main.storyboard */; };
+		EAD033F118A21B8100E19658 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD033F018A21B8100E19658 /* ViewController.m */; };
+		EAD033F318A21B8100E19658 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD033F218A21B8100E19658 /* Images.xcassets */; };
+		EAD033FA18A21B8200E19658 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD033F918A21B8200E19658 /* XCTest.framework */; };
+		EAD033FB18A21B8200E19658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD033DA18A21B8100E19658 /* Foundation.framework */; };
+		EAD033FC18A21B8200E19658 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD033DE18A21B8100E19658 /* UIKit.framework */; };
+		EAD0340418A21B8200E19658 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAD0340218A21B8200E19658 /* InfoPlist.strings */; };
+		EAD0340618A21B8200E19658 /* Simple_Photo_ShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD0340518A21B8200E19658 /* Simple_Photo_ShareTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAD033FD18A21B8200E19658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD033CF18A21B8100E19658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD033D618A21B8100E19658;
+			remoteInfo = "Simple Photo Share";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA8E83E618A21CAC00FB798C /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		EA8E83E818A21CB100FB798C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EA8E83EA18A21CB600FB798C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EAD033D718A21B8100E19658 /* Simple Photo Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Photo Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD033DA18A21B8100E19658 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAD033DC18A21B8100E19658 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAD033DE18A21B8100E19658 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAD033E218A21B8100E19658 /* Simple Photo Share-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Photo Share-Info.plist"; sourceTree = "<group>"; };
+		EAD033E418A21B8100E19658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAD033E618A21B8100E19658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAD033E818A21B8100E19658 /* Simple Photo Share-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Photo Share-Prefix.pch"; sourceTree = "<group>"; };
+		EAD033E918A21B8100E19658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAD033EA18A21B8100E19658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAD033ED18A21B8100E19658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAD033EF18A21B8100E19658 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAD033F018A21B8100E19658 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAD033F218A21B8100E19658 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAD033F818A21B8200E19658 /* Simple Photo ShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Photo ShareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD033F918A21B8200E19658 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EAD0340118A21B8200E19658 /* Simple Photo ShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Photo ShareTests-Info.plist"; sourceTree = "<group>"; };
+		EAD0340318A21B8200E19658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAD0340518A21B8200E19658 /* Simple_Photo_ShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Photo_ShareTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD033D418A21B8100E19658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8E83EB18A21CB600FB798C /* MobileCoreServices.framework in Frameworks */,
+				EA8E83E918A21CB100FB798C /* libz.dylib in Frameworks */,
+				EA8E83E718A21CAC00FB798C /* libicucore.dylib in Frameworks */,
+				EAD033DD18A21B8100E19658 /* CoreGraphics.framework in Frameworks */,
+				EAD033DF18A21B8100E19658 /* UIKit.framework in Frameworks */,
+				EAD033DB18A21B8100E19658 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD033F518A21B8200E19658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD033FA18A21B8200E19658 /* XCTest.framework in Frameworks */,
+				EAD033FC18A21B8200E19658 /* UIKit.framework in Frameworks */,
+				EAD033FB18A21B8200E19658 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAD033CE18A21B8100E19658 = {
+			isa = PBXGroup;
+			children = (
+				EAD033E018A21B8100E19658 /* Simple Photo Share */,
+				EAD033FF18A21B8200E19658 /* Simple Photo ShareTests */,
+				EAD033D918A21B8100E19658 /* Frameworks */,
+				EAD033D818A21B8100E19658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD033D818A21B8100E19658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD033D718A21B8100E19658 /* Simple Photo Share.app */,
+				EAD033F818A21B8200E19658 /* Simple Photo ShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD033D918A21B8100E19658 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA8E83EA18A21CB600FB798C /* MobileCoreServices.framework */,
+				EA8E83E818A21CB100FB798C /* libz.dylib */,
+				EA8E83E618A21CAC00FB798C /* libicucore.dylib */,
+				EAD033DA18A21B8100E19658 /* Foundation.framework */,
+				EAD033DC18A21B8100E19658 /* CoreGraphics.framework */,
+				EAD033DE18A21B8100E19658 /* UIKit.framework */,
+				EAD033F918A21B8200E19658 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAD033E018A21B8100E19658 /* Simple Photo Share */ = {
+			isa = PBXGroup;
+			children = (
+				EAD033E918A21B8100E19658 /* AppDelegate.h */,
+				EAD033EA18A21B8100E19658 /* AppDelegate.m */,
+				EAD033EC18A21B8100E19658 /* Main.storyboard */,
+				EAD033EF18A21B8100E19658 /* ViewController.h */,
+				EAD033F018A21B8100E19658 /* ViewController.m */,
+				EAD033F218A21B8100E19658 /* Images.xcassets */,
+				EAD033E118A21B8100E19658 /* Supporting Files */,
+			);
+			path = "Simple Photo Share";
+			sourceTree = "<group>";
+		};
+		EAD033E118A21B8100E19658 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD033E218A21B8100E19658 /* Simple Photo Share-Info.plist */,
+				EAD033E318A21B8100E19658 /* InfoPlist.strings */,
+				EAD033E618A21B8100E19658 /* main.m */,
+				EAD033E818A21B8100E19658 /* Simple Photo Share-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAD033FF18A21B8200E19658 /* Simple Photo ShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAD0340518A21B8200E19658 /* Simple_Photo_ShareTests.m */,
+				EAD0340018A21B8200E19658 /* Supporting Files */,
+			);
+			path = "Simple Photo ShareTests";
+			sourceTree = "<group>";
+		};
+		EAD0340018A21B8200E19658 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD0340118A21B8200E19658 /* Simple Photo ShareTests-Info.plist */,
+				EAD0340218A21B8200E19658 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD033D618A21B8100E19658 /* Simple Photo Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD0340918A21B8200E19658 /* Build configuration list for PBXNativeTarget "Simple Photo Share" */;
+			buildPhases = (
+				EAD033D318A21B8100E19658 /* Sources */,
+				EAD033D418A21B8100E19658 /* Frameworks */,
+				EAD033D518A21B8100E19658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Photo Share";
+			productName = "Simple Photo Share";
+			productReference = EAD033D718A21B8100E19658 /* Simple Photo Share.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAD033F718A21B8200E19658 /* Simple Photo ShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD0340C18A21B8200E19658 /* Build configuration list for PBXNativeTarget "Simple Photo ShareTests" */;
+			buildPhases = (
+				EAD033F418A21B8200E19658 /* Sources */,
+				EAD033F518A21B8200E19658 /* Frameworks */,
+				EAD033F618A21B8200E19658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD033FE18A21B8200E19658 /* PBXTargetDependency */,
+			);
+			name = "Simple Photo ShareTests";
+			productName = "Simple Photo ShareTests";
+			productReference = EAD033F818A21B8200E19658 /* Simple Photo ShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD033CF18A21B8100E19658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					EAD033F718A21B8200E19658 = {
+						TestTargetID = EAD033D618A21B8100E19658;
+					};
+				};
+			};
+			buildConfigurationList = EAD033D218A21B8100E19658 /* Build configuration list for PBXProject "Simple Photo Share" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAD033CE18A21B8100E19658;
+			productRefGroup = EAD033D818A21B8100E19658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD033D618A21B8100E19658 /* Simple Photo Share */,
+				EAD033F718A21B8200E19658 /* Simple Photo ShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD033D518A21B8100E19658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD033F318A21B8100E19658 /* Images.xcassets in Resources */,
+				EAD033E518A21B8100E19658 /* InfoPlist.strings in Resources */,
+				EAD033EE18A21B8100E19658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD033F618A21B8200E19658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD0340418A21B8200E19658 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD033D318A21B8100E19658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD033F118A21B8100E19658 /* ViewController.m in Sources */,
+				EAD033EB18A21B8100E19658 /* AppDelegate.m in Sources */,
+				EAD033E718A21B8100E19658 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD033F418A21B8200E19658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD0340618A21B8200E19658 /* Simple_Photo_ShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAD033FE18A21B8200E19658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD033D618A21B8100E19658 /* Simple Photo Share */;
+			targetProxy = EAD033FD18A21B8200E19658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAD033E318A21B8100E19658 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD033E418A21B8100E19658 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAD033EC18A21B8100E19658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD033ED18A21B8100E19658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAD0340218A21B8200E19658 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD0340318A21B8200E19658 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAD0340718A21B8200E19658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAD0340818A21B8200E19658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAD0340A18A21B8200E19658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jwhite/Repositories/2nd-Screen-iOS-SDK-Framework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Photo Share/Simple Photo Share-Prefix.pch";
+				INFOPLIST_FILE = "Simple Photo Share/Simple Photo Share-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAD0340B18A21B8200E19658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jwhite/Repositories/2nd-Screen-iOS-SDK-Framework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Photo Share/Simple Photo Share-Prefix.pch";
+				INFOPLIST_FILE = "Simple Photo Share/Simple Photo Share-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAD0340D18A21B8200E19658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Photo Share.app/Simple Photo Share";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Photo Share/Simple Photo Share-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Simple Photo ShareTests/Simple Photo ShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EAD0340E18A21B8200E19658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Photo Share.app/Simple Photo Share";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Photo Share/Simple Photo Share-Prefix.pch";
+				INFOPLIST_FILE = "Simple Photo ShareTests/Simple Photo ShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD033D218A21B8100E19658 /* Build configuration list for PBXProject "Simple Photo Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD0340718A21B8200E19658 /* Debug */,
+				EAD0340818A21B8200E19658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD0340918A21B8200E19658 /* Build configuration list for PBXNativeTarget "Simple Photo Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD0340A18A21B8200E19658 /* Debug */,
+				EAD0340B18A21B8200E19658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD0340C18A21B8200E19658 /* Build configuration list for PBXNativeTarget "Simple Photo ShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD0340D18A21B8200E19658 /* Debug */,
+				EAD0340E18A21B8200E19658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD033CF18A21B8100E19658 /* Project object */;
+}
