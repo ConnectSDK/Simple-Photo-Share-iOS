@@ -1,17 +1,22 @@
 #Connect SDK Simple Photo Share Sample App
 
-##About
-For information on Connect SDK, visit [connectsdk.com/about](http://www.connectsdk.com/about/).
+Connect SDK is an open source framework that connects your mobile apps with multiple TV platforms. Because most TV platforms support a variety of protocols, Connect SDK integrates and abstracts the discovery and connectivity between all supported protocols.
+
+For more information, visit our [website](http://www.connectsdk.com/).
+
+* [General information about Connect SDK](http://www.connectsdk.com/discover/)
+* [Platform documentation & FAQs](http://www.connectsdk.com/docs/ios/)
+* [API documentation](http://www.connectsdk.com/apis/ios/)
 
 ##Setup
 See https://github.com/ConnectSDK/Connect-SDK-iOS for setup instructions.
 
-##See also
-For more information on using Connect SDK, we recommend you review the following material.
-
-- [Connect SDK iOS Framework](http://github.com/ConnectSDK/Connect-SDK-iOS-Framework)
-- [My First Connect SDK App](http://connectsdk.com/getting-started/my-first-iphone-app/)
-- [API Documentation](http://connectsdk.com/docs/iosapi/)
+##Contact
+* Twitter: [@ConnectSDK](https://www.twitter.com/ConnectSDK)
+* Ask a question with the "tv" tag on [Stack Overflow](http://stackoverflow.com/tags/tv)
+* General Inquiries: info@connectsdk.com
+* Developer Support: support@connectsdk.com
+* Partnerships: partners@connectsdk.com
 
 ##License
 Connect SDK Sample App by LG Electronics
