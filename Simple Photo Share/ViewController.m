@@ -56,11 +56,12 @@
 
 - (void)connectableDeviceReady:(ConnectableDevice *)device
 {
-    NSURL *imageURL = [NSURL URLWithString:@"http://www.freesoftwaremagazine.com/files/nodes/3466/fig_sintel_style_study.jpg"];
+    NSURL *imageURL = [NSURL URLWithString:@"http://ec2-54-201-108-205.us-west-2.compute.amazonaws.com/samples/media/photo.jpg"];
+    NSURL *iconURL = [NSURL URLWithString:@"http://ec2-54-201-108-205.us-west-2.compute.amazonaws.com/samples/media/photoIcon.jpg"];
     
     [_device.mediaPlayer displayImage:imageURL
-                              iconURL:nil
-                                title:@"Sintel"
+                              iconURL:iconURL
+                                title:@"Sintel Character Design"
                           description:@"Blender Open Movie Project"
                              mimeType:@"image/jpeg"
                               success:^(LaunchSession *launchSession, id<MediaControl> mediaControl) {
