@@ -3,7 +3,14 @@
 //  Simple Photo Share
 //
 //  Created by Jeremy White on 2/4/14.
+//  Connect SDK Sample App by LG Electronics
 //
+//  To the extent possible under law, the person who associated CC0 with
+//  this sample app has waived all copyright and related or neighboring rights
+//  to the sample app.
+//
+//  You should have received a copy of the CC0 legalcode along with this
+//  work. If not, see http://creativecommons.org/publicdomain/zero/1.0/.
 //
 
 #import "ViewController.h"
@@ -23,7 +30,10 @@
 {
     [super viewDidLoad];
 	
+    CapabilityFilter *imageFilter = [CapabilityFilter filterWithCapabilities:@[kMediaPlayerDisplayImage]];
+    
     _discoveryManager = [DiscoveryManager sharedManager];
+    [_discoveryManager setCapabilityFilters:@[imageFilter]];
     [_discoveryManager startDiscovery];
 }
 
@@ -53,7 +63,7 @@
                                 title:@"Sintel"
                           description:@"Blender Open Movie Project"
                              mimeType:@"image/jpeg"
-                              success:^(LaunchSession *launchSession) {
+                              success:^(LaunchSession *launchSession, id<MediaControl> mediaControl) {
                                   [self.statusTextView setText:@"Successfully displayed image!"];
                               }
                               failure:^(NSError *error) {
