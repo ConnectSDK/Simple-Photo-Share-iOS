@@ -47,6 +47,13 @@
 
 - (void)devicePicker:(DevicePicker *)picker didSelectDevice:(ConnectableDevice *)device
 {
+    if (_device)
+    {
+        _device.delegate = nil;
+        [_device disconnect];
+        _device = nil;
+    }
+    
     _device = device;
     _device.delegate = self;
     [_device connect];
